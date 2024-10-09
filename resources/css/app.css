@@ -1,0 +1,22 @@
+/* resources/css/app.css */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.main-layout{
+    background-color: red;
+}
+.header-container{
+    background-color: yellow;
+}
